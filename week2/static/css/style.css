@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+    justify-content: center;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+
+li {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
